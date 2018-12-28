@@ -1,0 +1,15 @@
+{
+  "deepspeech": {
+    "model" :"/models/output_graph.pb",
+    "alphabet": "/models/alphabet.txt",
+    "lm": "/models/lm.binary",
+    "trie": "/models/trie"
+  },
+  "server": {
+    "http": {
+      "host": "voicex.azurewebsites.net",
+      "port": 8080,
+      "request_max_size": 1048576
+    }
+  }
+}
